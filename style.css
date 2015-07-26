@@ -14,6 +14,7 @@ h1 {
 h2 {
 	font-family: 'Poiret One', cursive;
 	color: white;
+	background-color: 073663;
 }
 
 body {
@@ -26,12 +27,12 @@ p {
 }
 
 a {
-	color: #0F477D;
+	color: #6F6AC4;
 	font-family: 'Poiret One', cursive;
 }
 
 a:hover {
-	color: white;
+	color: #34A87F;
 
 }
 
@@ -41,20 +42,11 @@ a:hover {
 }
 .panel {
 	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 	border-radius: 10px;
 	height: 80%;
-}
-
-.bg-blue {
 	background-color: #5A8CBC;
-
-}
-.bg-green {
-	background-color: #34A87F;
-}
-
-.bg-purple {
-	background-color: #6F6AC4;
 }
 
 .down-button{
@@ -86,4 +78,11 @@ a:hover {
 	background-color: #34A87F;
 	border-radius: 10px;
 	line-height: 1em;
+}
+
+.header-wrapper {
+	background-color: #073663;
+	border-radius: 10px;
+	/*padding: 2px;*/
+
 }

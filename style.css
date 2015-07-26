@@ -1,7 +1,19 @@
+html, body {
+	height: 100%;
+}
+
 h1 {
-	margin-left: 30px;
-	color: white;
+	font-size: 800%;
 	font-family: 'Poiret One', cursive;
+	text-align: center;
+	position: relative;
+	top: 10%;
+	color: white;
+}
+
+h2 {
+	font-family: 'Poiret One', cursive;
+	color: white;
 }
 
 body {
@@ -12,11 +24,66 @@ p {
 	color: white;
 	font-family: 'Poiret One', cursive;
 }
+
+a {
+	color: #0F477D;
+	font-family: 'Poiret One', cursive;
+}
+
+a:hover {
+	color: white;
+
+}
+
+.frame{
+	height:100%;
+	padding: 30px;
+}
 .panel {
-	margin: 30px;
 	padding: 10px;
 	border-radius: 10px;
+	height: 80%;
+}
+
+.bg-blue {
 	background-color: #5A8CBC;
-	height: 100%;
-	min-height: 100%;
+
+}
+.bg-green {
+	background-color: #34A87F;
+}
+
+.bg-purple {
+	background-color: #6F6AC4;
+}
+
+.down-button{
+	background-color: #1F1986;
+	color: white;
+	font-size: 300%;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+	border: none;
+	border-radius: 20px;	
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 50px solid white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button {
+	width: 75%;
+	padding: 10px;
+	margin: 30px;
+	background-color: #34A87F;
+	border-radius: 10px;
+	line-height: 1em;
 }

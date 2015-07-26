@@ -1,4 +1,22 @@
 h1 {
-	color: blue;
+	margin-left: 30px;
+	color: white;
 	font-family: 'Poiret One', cursive;
+}
+
+body {
+	background-color: #1F5E9A;
+}
+
+p {
+	color: white;
+	font-family: 'Poiret One', cursive;
+}
+.panel {
+	margin: 30px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #5A8CBC;
+	height: 100%;
+	min-height: 100%;
 }

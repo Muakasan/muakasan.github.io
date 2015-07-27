@@ -15,6 +15,7 @@ h2 {
 	font-family: 'Poiret One', cursive;
 	color: white;
 	background-color: 073663;
+	letter-spacing: 2px;
 }
 
 body {
@@ -27,12 +28,13 @@ p {
 }
 
 a {
-	color: #6F6AC4;
+	font-weight: bold;
+	color: #34A87F;
 	font-family: 'Poiret One', cursive;
 }
 
 a:hover {
-	color: #34A87F;
+	color: #6F6AC4;
 
 }
 
@@ -40,6 +42,7 @@ a:hover {
 	height:100%;
 	padding: 30px;
 }
+
 .panel {
 	padding: 10px;
 	padding-left: 30px;
@@ -69,20 +72,46 @@ a:hover {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 20px;
 }
 
 .button {
 	width: 75%;
 	padding: 10px;
 	margin: 30px;
-	background-color: #34A87F;
+	height: 20px;
+	background-color: #1F1986;
 	border-radius: 10px;
 	line-height: 1em;
 }
 
+.button:hover {
+	background-color: #130E6A;
+}
+
 .header-wrapper {
+	margin-top: 20px;
+	padding-top: 2px; 
+	padding-left: 10px;
 	background-color: #073663;
 	border-radius: 10px;
-	/*padding: 2px;*/
+	height: 60px;
+}
 
+.content {
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 10px;
+	height: 60%;
+	background-color: #2D68A1;
+
+}
+
+.button-wrapper {
+	padding: 2px;
+}
+
+li {
+	color: white;
 }

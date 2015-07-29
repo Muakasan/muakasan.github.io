@@ -13,14 +13,30 @@ $(document).keydown(function(e){
 		case 38:
 			window.location = '#frame' + (parseInt(
 				document.querySelectorAll(
-				"div:hover.frame")[0].id.substring(5))-1);
+				"div:hover.frame")[0]
+				.id.substring(5))-1);
 			break;
 		//down or space
 		case 32:
 		case 40:
 			window.location = '#frame' + (parseInt(
 				document.querySelectorAll(
-				"div:hover.frame")[0].id.substring(5))+1);
+				"div:hover.frame")[0]
+				.id.substring(5))+1);
 			break;
 	}
+});
+
+//handles on screen arrows
+$(".arrow-down").click(function (){
+	window.location = '#frame' + (parseInt(
+				$(this).parent().parent()
+				.attr('id').substring(5))+1);
+});
+
+//handles on screen arrows
+$(".arrow-up").click(function (){
+	window.location = '#frame' + (parseInt(
+				$(this).parent().parent().parent()
+				.attr('id').substring(5))-1);
 });

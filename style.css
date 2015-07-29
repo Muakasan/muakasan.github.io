@@ -2,6 +2,10 @@ html, body {
 	height: 100%;
 }
 
+body {
+	background-color: #1F5E9A;
+}
+
 h1 {
 	font-size: 800%;
 	font-family: 'Poiret One', cursive;
@@ -18,9 +22,6 @@ h2 {
 	letter-spacing: 2px;
 }
 
-body {
-	background-color: #1F5E9A;
-}
 
 p {
 	color: white;
@@ -38,6 +39,11 @@ a:hover {
 
 }
 
+
+li {
+	color: white;
+}
+
 .frame{
 	height:100%;
 	padding: 30px;
@@ -52,15 +58,27 @@ a:hover {
 	background-color: #5A8CBC;
 }
 
-.down-button{
-	background-color: #1F1986;
-	color: white;
-	font-size: 300%;
-	padding-left: 50px;
-	padding-right: 50px;
+.content {
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 10px;
+	height: 60%;
+	background-color: #2D68A1;
+
+}
+
+.header-wrapper {
+	margin-top: 20px;
+	padding-top: 2px; 
+	padding-left: 10px;
+	background-color: #073663;
+	border-radius: 10px;
+	height: 60px;
+}
+
+.arrow-wrapper {
 	text-align: center;
-	border: none;
-	border-radius: 20px;	
 }
 
 .arrow-down {
@@ -75,6 +93,18 @@ a:hover {
 	margin-top: 20px;
 }
 
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 50px solid white;
+	display: inline;
+	margin-bottom: 20px;
+}
+
+
+/*
 .button {
 	width: 75%;
 	padding: 10px;
@@ -89,29 +119,11 @@ a:hover {
 	background-color: #130E6A;
 }
 
-.header-wrapper {
-	margin-top: 20px;
-	padding-top: 2px; 
-	padding-left: 10px;
-	background-color: #073663;
-	border-radius: 10px;
-	height: 60px;
-}
-
-.content {
-	padding: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border-radius: 10px;
-	height: 60%;
-	background-color: #2D68A1;
-
-}
-
 .button-wrapper {
 	padding: 2px;
 }
+*/
 
-li {
-	color: white;
-}
+
+
+

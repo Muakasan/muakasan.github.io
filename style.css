@@ -23,9 +23,10 @@ h2 {
 }
 
 
-p {
+p, pre {
 	color: white;
 	font-family: 'Poiret One', cursive;
+	font-size: 125%;
 }
 
 a {

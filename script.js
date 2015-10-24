@@ -6,37 +6,53 @@ window.addEventListener("keydown", function(e) {
     }
 }, false);
 
+
+
+function getFrameNumber(frame){
+	return parseInt(frame.attr('id').substring(5));
+}
+
+function getCurrentFrame(){
+	return $("div[id^='frame']:in-viewport").one();
+}
+
+function getFrame(frameNumber){
+	return $('#frame' + frameNumber);
+}
+
+function goToFrame(frameNumber){
+	$(window).scrollTo(getFrame(frameNumber), 200);
+}
+
+function goToNextFrame(){
+	goToFrame(getFrameNumber(getCurrentFrame())+1);	
+}
+
+function goToPreviousFrame(){
+	goToFrame(getFrameNumber(getCurrentFrame())-1);
+}
+
 // handles key presses to move page
 $(document).keydown(function(e){
 	switch(e.which){
 		//up arrow
 		case 38:
-			window.location = '#frame' + (parseInt(
-				document.querySelectorAll(
-				"div:hover.frame")[0]
-				.id.substring(5))-1);
+			goToPreviousFrame();
 			break;
 		//down or space
 		case 32:
 		case 40:
-			window.location = '#frame' + (parseInt(
-				document.querySelectorAll(
-				"div:hover.frame")[0]
-				.id.substring(5))+1);
+			goToNextFrame();
 			break;
 	}
 });
 
 //handles on screen arrows
 $(".arrow-down").click(function (){
-	window.location = '#frame' + (parseInt(
-				$(this).parent().parent()
-				.attr('id').substring(5))+1);
+	goToNextFrame();
 });
 
 //handles on screen arrows
 $(".arrow-up").click(function (){
-	window.location = '#frame' + (parseInt(
-				$(this).parent().parent().parent()
-				.attr('id').substring(5))-1);
+	goToPreviousFrame();
 });

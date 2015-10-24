@@ -92,6 +92,8 @@ li {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
+	cursor: pointer; 
+	cursor: hand;
 }
 
 .arrow-up {
@@ -102,6 +104,8 @@ li {
 	border-bottom: 50px solid white;
 	display: inline;
 	margin-bottom: 20px;
+	cursor: pointer; 
+	cursor: hand;
 }
 
 

@@ -56,3 +56,7 @@ $(".arrow-down").click(function (){
 $(".arrow-up").click(function (){
 	goToPreviousFrame();
 });
+
+$('.link-span').click(function(){
+	goToFrame(parseInt($(this).attr('data-frame-number')));
+});

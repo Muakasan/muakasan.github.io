@@ -108,27 +108,18 @@ li {
 	cursor: hand;
 }
 
-
-/*
-.button {
-	width: 75%;
-	padding: 10px;
-	margin: 30px;
-	height: 20px;
-	background-color: #1F1986;
-	border-radius: 10px;
-	line-height: 1em;
+.link-span {
+	cursor: pointer; 
+	cursor: hand;
+	font-weight: bold;
+	color: #34A87F;
+	font-family: 'Poiret One', cursive;
+	text-decoration: underline;
 }
 
-.button:hover {
-	background-color: #130E6A;
+.link-span:hover {
+	color: #6F6AC4;
 }
-
-.button-wrapper {
-	padding: 2px;
-}
-*/
-
 
 
 

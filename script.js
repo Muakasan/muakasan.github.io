@@ -48,15 +48,15 @@ $(document).keydown(function(e){
 });
 
 //handles on screen arrows
-$(".arrow-down").click(function (){
+$(".arrow-down").on("touchstart click", function (){
 	goToNextFrame();
 });
 
 //handles on screen arrows
-$(".arrow-up").click(function (){
+$(".arrow-up").on("touchstart click", function (){
 	goToPreviousFrame();
 });
 
-$('.link-span').click(function(){
+$('.link-span').on("touchstart click", function(){
 	goToFrame(parseInt($(this).attr('data-frame-number')));
 });

@@ -7,26 +7,20 @@ body {
 }
 
 h1 {
-	font-size: 800%;
 	font-family: 'Poiret One', cursive;
-	text-align: center;
-	position: relative;
-	top: 10%;
 	color: white;
 }
 
 h2 {
 	font-family: 'Poiret One', cursive;
-	color: white;
-	background-color: 073663;
-	letter-spacing: 2px;
+	font-weight: bold;
 }
 
 
 p, pre {
-	color: white;
 	font-family: 'Poiret One', cursive;
 	font-size: 125%;
+	font-weight: bold;
 }
 
 a {
@@ -40,86 +34,20 @@ a:hover {
 
 }
 
-
-li {
-	color: white;
-}
-
-.frame{
-	height:100%;
-	padding: 30px;
+.nav-space {
+	padding-top: 50px;
 }
 
 .panel {
-	padding: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border-radius: 10px;
-	height: 80%;
-	background-color: #5A8CBC;
+	background-color: #e0e0eb;
+	padding-bottom: 30px;
+	margin-right: 10px;
 }
 
-.content {
-	padding: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border-radius: 10px;
-	height: 60%;
-	background-color: #2D68A1;
-
+.nav-font {
+	font-size: 20px;
 }
 
-.header-wrapper {
-	margin-top: 20px;
-	padding-top: 2px; 
-	padding-left: 10px;
-	background-color: #073663;
-	border-radius: 10px;
-	height: 60px;
+.active a {
+	font-size: 25px;
 }
-
-.arrow-wrapper {
-	text-align: center;
-}
-
-.arrow-down {
-	width: 0;
-	height: 0;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-	border-top: 50px solid white;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	cursor: pointer; 
-	cursor: hand;
-}
-
-.arrow-up {
-	width: 0;
-	height: 0;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-	border-bottom: 50px solid white;
-	display: inline;
-	margin-bottom: 20px;
-	cursor: pointer; 
-	cursor: hand;
-}
-
-.link-span {
-	cursor: pointer; 
-	cursor: hand;
-	font-weight: bold;
-	color: #34A87F;
-	font-family: 'Poiret One', cursive;
-	text-decoration: underline;
-}
-
-.link-span:hover {
-	color: #6F6AC4;
-}
-
-
-

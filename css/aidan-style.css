@@ -6,16 +6,14 @@ body {
 	background-color: #1F5E9A;
 }
 
-h1 {
+h1, h3 {
 	font-family: 'Poiret One', cursive;
 	color: white;
 }
 
 h2 {
 	font-family: 'Poiret One', cursive;
-	font-weight: bold;
 }
-
 
 p, pre {
 	font-family: 'Poiret One', cursive;
@@ -50,4 +48,8 @@ a:hover {
 
 .active a {
 	font-size: 25px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: #e0e0eb;
 }

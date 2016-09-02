@@ -2,31 +2,9 @@
 layout: default
 title: Home
 ---
-<h1>Aidan San</h1>
 <div class="panel panel-default">
     <div class="panel-body">
         <h2>Bio</h2>
             <p>Hi my name is Aidan and I'm an aspiring Computer Scientist who wants to work in the field of Natural Language Processing. I'm currently a Freshman at University of Illinois studying Computer Science + Linguistics. In my freetime, I love bringing my guitar to hackathons to ease the tension after a sleepless night of coding.</p>
     </div>
 </div>
-
-{% for project in site.projects %}
-    {{ project }}
-{% endfor %}
-
-<!--
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-        <h1> {{ post.lmao }} </h1>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
--->

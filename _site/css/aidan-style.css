@@ -1,0 +1,53 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #1F5E9A;
+}
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	color: white;
+}
+
+h2 {
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+}
+
+
+p, pre {
+	font-family: 'Poiret One', cursive;
+	font-size: 125%;
+	font-weight: bold;
+}
+
+a {
+	font-weight: bold;
+	color: #34A87F;
+	font-family: 'Poiret One', cursive;
+}
+
+a:hover {
+	color: #6F6AC4;
+
+}
+
+.nav-space {
+	padding-top: 50px;
+}
+
+.panel {
+	background-color: #e0e0eb;
+	padding-bottom: 30px;
+	margin-right: 10px;
+}
+
+.nav-font {
+	font-size: 20px;
+}
+
+.active a {
+	font-size: 25px;
+}

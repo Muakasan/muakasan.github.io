@@ -1,5 +1,0 @@
----
-title: CoMAPorate
-description: CoMAPorate was a project designed for HackTJ 2015. The primary focus of the app was not to compete with an app like Google Maps, but instead allow users to edit a smaller map to more detail. The idea of this app was to allow users to create maps by uploading images of a map which could be easily taken with a phone camera and then uploaded to a database. After the map was added, other users would be allowed to join this map and edit collaboratively on the map by adding waypoints. These waypoints would have tags whose names and values would be chosen by the user allowing almost limitless extendability. For example, a group of students could edit a map of the school and mark out the different rooms in the school and tag the rooms based on teacher name or subject. 
-github: https://github.com/Christopher312/CoMAPorate
----
